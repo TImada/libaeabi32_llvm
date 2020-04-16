@@ -2,6 +2,7 @@
 This is other implementation of libaeabi32 at https://github.com/TImada/libaeabi32, based on LLVM compiler-rt (Ver 10.0.0) builtins at https://github.com/llvm/llvm-project/tree/master/compiler-rt/lib/builtins.
 
 ## What's included?
+(from LLVM compiler-rt)
 - `__aeabi_d2lz`
 - `__aeabi_d2ulz`
 - `__aeabi_idiv`
@@ -12,3 +13,5 @@ This is other implementation of libaeabi32 at https://github.com/TImada/libaeabi
 - `__aeabi_uidivmod`
 - `__aeabi_ul2d`
 - `__aeabi_uldivmod`
+(original)
+- `__aeabi_read_tp`
